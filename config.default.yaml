@@ -1,6 +1,6 @@
 webServer:
   enabled: false
-  address: ''
+  address: '192.168.1.24'
   port: 3333
 
 midi:
