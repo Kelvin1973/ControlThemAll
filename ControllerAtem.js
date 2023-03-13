@@ -4,7 +4,7 @@ import { EventEmitter } from 'inf-ee'
 
 const log = debug('sio:atem')
 
-const ATEM_DEFAULT_ADDRESS = '192.168.10.240'
+const ATEM_DEFAULT_ADDRESS = '192.168.1.24'
 
 export class ControllerAtem extends EventEmitter {
   constructor(options = {}) {
